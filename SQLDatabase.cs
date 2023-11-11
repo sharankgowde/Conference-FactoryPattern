@@ -13,7 +13,7 @@ namespace Design_patterns
     {
 
         SqlConnection conn = new
-      SqlConnection("Server=tcp:dbservertest-1.database.windows.net,1433;Initial Catalog=CustomerDb;Persist Security Info=False;User ID=sharankgowde;Password=satyam123$;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
+      SqlConnection();
         public async Task<int> insertUserdata(UserDetails userDetails)
         {
             int rowsAffected = 0;
