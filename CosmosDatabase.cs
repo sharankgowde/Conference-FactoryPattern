@@ -9,10 +9,10 @@ namespace Design_patterns
 {
     internal class CosmosDatabase : IDatabase
     {
-        string cosmosEndpoint = "https://cosmosdbsharan.documents.azure.com:443/";
-        string cosmosKey = "eav2iXHvCASkOexJCVWf8F7NS2IagE8VWqejyX0KTMUe5N66qdLvjg8tjwmjJlZfwgNBP7Z90fjpACDbiLmY5g==";
-        string databaseName = "databasetestsharan";
-        string containerName = "customerDb";
+        string cosmosEndpoint = "";
+        string cosmosKey = "";
+        string databaseName = "";
+        string containerName = "";
 
 
 
